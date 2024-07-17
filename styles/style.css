@@ -1,0 +1,61 @@
+/* font styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+.mulish-primary {
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+.mulish-bold{
+    font-family: mulish;
+    font-weight: 700;
+}
+.mulish-bolder{
+    font-family: mulish;
+    font-weight: 800;
+ }
+  
+  /* text color styles */
+.dark1{
+    color: rgb(19, 19, 24);
+}
+.dark2{
+    color: rgb(66, 66, 71);
+}
+.dark3{
+    color: rgba(19, 19, 24, 0.7);
+}
+.dark4{
+    color: rgba(19, 19, 24, 0.5);
+}
+.orange{
+    color: rgb(255, 84, 0);
+}
+
+
+/* body styles */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* nav styles */
+nav{
+    width: 1040px;
+    margin: 0 auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.nav-link{
+    display: flex;
+    gap: 39px;
+    list-style: none;
+    font-size: 1.125rem;
+}
